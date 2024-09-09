@@ -9,6 +9,7 @@ require (
 	k8s.io/api v0.31.0
 	k8s.io/apimachinery v0.31.0
 	k8s.io/client-go v0.31.0
+	argocd_module v0.0.0-00010101000000-000000000000
 )
 
 require (
@@ -53,3 +54,5 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )
+
+replace argocd_module => ./argocd_module
